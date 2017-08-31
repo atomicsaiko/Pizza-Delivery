@@ -1,6 +1,10 @@
+require_relative "menu.rb"
+
 done = false
 
 puts "Hello, welcome to our pizza express delivery"
+
+menu = Menu.new
 
 #this will run until done is set to true
 while not done
